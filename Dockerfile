@@ -1,8 +1,8 @@
 FROM node:22-slim
 # Install Chromium and its dependencies
-RUN apt-get update && apt-get install -y \\
-    chromium \\
-    fonts-liberation \\
+RUN apt-get update && apt-get install -y
+    chromium 
+    fonts-liberation
     libasound2t64 \\
     libatk-bridge2.0-0 \\
     libatk1.0-0 \\
